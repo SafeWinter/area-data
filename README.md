@@ -30,31 +30,31 @@ v1版本中，`data.js` 包含省市区以及街道数据。
 Install the pkg with npm:
 
 ```
-npm install area-data --save
+npm install area-data-mj --save
 ```
 
 or yarn
 
 ```
-yarn add area-data
+yarn add area-data-mj
 ```
 
 or bower
 
 ```
-bower install area-data
+bower install area-data-mj
 ```
 
 ## 获取数据
 ```
 // v5之前的版本
-import AreaData from 'area-data';
+import AreaData from 'area-data-mj';
 
 // v5及之后的版本
-import { pca, pcaa } from 'area-data';
+import { pca, pcaa } from 'area-data-mj';
 // 可以根据需要按需引入：
-import PCA from 'area-data/pca'; 
-import PCAA from 'area-data/pcaa'; 
+import PCA from 'area-data-mj/pca'; 
+import PCAA from 'area-data-mj/pcaa'; 
 
 pca['86'] // 等同于 AreaData['86']
 // 所有省份：{'110000': '北京市', '120000': '天津市', '130000': '河北省', ...}
