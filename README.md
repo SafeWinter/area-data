@@ -1,5 +1,10 @@
-# area-data
-中国行政区域数据(含港澳台)
+# area-data-mj
+
+适用于深圳密接系统的中国行政区域数据(含港澳台)，基于 area-data 模块改造
+
+## v1
+- 重新改造区市县模块 `pcaa.js`，封装为适用于深圳密接项目的行政区划版本。
+
 
 ## v5
 * 更改新的数据来源：[area-puppeteer](https://github.com/dwqs/area-puppeteer)
