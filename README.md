@@ -10,21 +10,11 @@
 - 重新改造区市县模块 `pcaa.js`，封装为适用于深圳密接项目的行政区划版本。
 
 
-## v5
-* 更改新的数据来源：[area-puppeteer](https://github.com/dwqs/area-puppeteer)
-* 在实用性上对数据作了格式化处理，见[area-puppeteer#format.js](https://github.com/dwqs/area-puppeteer/blob/master/format.js#L16)
-* 新的导出会有两份数据：`pca.js` 和 `pcaa.js`，前者仅包含省市数据，后者包含省市(县)区数据
+## doc
 
-## v3.1
-增加广东省中山市和东莞市的区镇数据(参考京东 pc 端的地区选择)
-## v3
-增加港澳台数据(参考京东 pc 端的地区选择)，v3之后不再提供或更新街道数据
 
-## v2
-v2版本中，`data.js` 中不再包含街道数据，以减小打包体积。格式化的街道数据单独存放在 `street.js` 中，单独暴露全局变量 `STREETS`。可通过[该CDN链接](http://onasvjoyz.bkt.clouddn.com/street.js)单独引入，或者下载该文件自行引入。
+[详见 area-data 文档页](https://github.com/dwqs/area-data#readme)
 
-## v1
-v1版本中，`data.js` 包含省市区以及街道数据。
 
 ## Installation
 Install the pkg with npm:
