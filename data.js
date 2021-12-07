@@ -1,4 +1,4 @@
 module.exports = {
-    pca: require('area-data/pca'),
-    pcaa: require('area-data/pcaa')
+    pca: require('area-data-mj/pca'),
+    pcaa: require('area-data-mj/pcaa')
 };
