@@ -1,8 +1,8 @@
 {
-  "name": "area-data",
+  "name": "area-data-mj",
   "main": "./data.js",
   "description": "中国省、市、区、街道数据",
-  "authors": "pomysky@gmail.com",
+  "authors": "andong_2007@qq.com",
   "license": "MIT",
   "ignore": [
     "*",
